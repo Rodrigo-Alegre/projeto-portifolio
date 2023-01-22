@@ -131,6 +131,11 @@ nav a:hover {
     color: var(--cor6);
 }
 
+.secao-1-escrito-p{
+    text-align: justify;
+    padding-right: 150px;
+}
+
 .secao-1-scrito-botao-contate-me {
     font-family: var(--fonte-padrao);
     background-color: var(--cor2);
