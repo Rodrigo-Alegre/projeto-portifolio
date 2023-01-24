@@ -226,7 +226,7 @@ margin-left: 80px;
     }
   } */
 
-  @media only screen and (max-width: 350px) {
+  @media only screen and (max-width: 828px) {
     .conteudo-secao-1 {
         display: grid;
         grid-template-columns: repeat(4, 1fr); /* 4 colunas com tamanho igual */
