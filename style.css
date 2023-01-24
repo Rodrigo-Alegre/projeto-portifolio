@@ -81,14 +81,14 @@
     font-weight: 400;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 280px) {
 
     .container {
-        font-size: 20px;
+        font-size: 1rem;
     }
 
     .menu-cabecalho-link {
-        font-size: 15px;
+        font-size: 1rem;
         margin-left: 5px;
         margin-right: 5px;
     }
@@ -152,7 +152,7 @@ margin-left: 10px;
 
 .conteudo-secao-1-escrito-h1 {
     font-weight: 400;
-    font-size: 1rem;
+    font-size: rem;
     color: var(--cor4);
     margin-bottom: 5px;
 }
@@ -216,7 +216,7 @@ margin-left: 10px;
 }
 
 /*============ALTERANDO RESOLUÇÃO PARA 350PX===========*/
-  /* @media only screen and (max-width: 350px) {
+  @media only screen and (max-width: 350px) {
     .conteudo-secao-1 {
         grid-template-columns: max-content 1fr 1fr;
     }
@@ -229,7 +229,7 @@ margin-left: 10px;
         width: 250px;
         fill: #636161;
     }
-  } */
+  }
 
 
 /*============ALTERANDO RESOLUÇÃO PARA 768PX===========*/
