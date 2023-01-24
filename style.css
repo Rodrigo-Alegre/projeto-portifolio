@@ -84,13 +84,13 @@
 @media screen and (max-width: 600px) {
 
     .container {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .menu-cabecalho-link {
-        font-size: 10px;
-        margin-left: 1px;
-        margin-right: 1px;
+        font-size: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
 }
