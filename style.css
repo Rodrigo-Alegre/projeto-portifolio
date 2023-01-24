@@ -213,7 +213,7 @@ margin-left: 80px;
 }
 
 /*============ALTERANDO RESOLUÇÃO PARA 350PX===========*/
-  @media only screen and (min-width: 350px) {
+  /* @media only screen and (min-width: 350px) {
     .conteudo-secao-1 {
         grid-template-columns: max-content 1fr 1fr;
     }
@@ -226,7 +226,7 @@ margin-left: 80px;
         width: 250px;
         fill: #636161;
     }
-  }
+  } */
 
   @media only screen and (max-width: 350px) {
     .conteudo-secao-1 {
@@ -243,7 +243,7 @@ margin-left: 80px;
     }
   }
 
-  @media only (min-width: 568px) {
+  /* @media only (min-width: 568px) {
     .conteudo-secao-1 {
         grid-template-columns: max-content 1fr 1fr;
     }
@@ -256,7 +256,7 @@ margin-left: 80px;
         width: 250px;
         fill: #636161;
     }
-  }
+  } */
 
   @media only (max-width:568px) {
     .conteudo-secao-1 {
