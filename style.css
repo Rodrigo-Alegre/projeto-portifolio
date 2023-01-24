@@ -212,8 +212,8 @@ margin-left: 80px;
     color: var(--cor2);
 }
 
-/*============ALTERANDO RESOLUÇÃO PARA 568PX===========*/
-  @media only screen and (min-width: 568px) {
+/*============ALTERANDO RESOLUÇÃO PARA 375PX===========*/
+  @media only screen and (min-width: 375px) {
     .conteudo-secao-1 {
         grid-template-columns: max-content 1fr 1fr;
     }
