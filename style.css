@@ -259,22 +259,6 @@ margin-left: 80px;
     }
   } */
 
-  @media (max-width:568px) {
-    .conteudo-secao-1 {
-        grid-template-columns: max-content 1fr 1fr;
-    }
-    
-    .conteudo-secao-1-escrito {
-        grid-column: initial;
-    }
-    .conteudo-secao-1-img {
-        order: 1;
-        justify-self: center;
-        width: 250px;
-        fill: #636161;
-    }
-  }
-
 /*============ALTERANDO RESOLUÇÃO PARA 768PX===========*/
   @media only screen and (min-width: 768px) {
     .conteudo-secao-1 {
