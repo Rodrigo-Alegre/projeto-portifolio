@@ -159,12 +159,12 @@ margin-left: 10px;
 
 .conteudo-secao-1-escrito-h1 span {
     color: var(--cor6);
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 400;
 }
 
 .conteudo-secao-1-escrito-h1 strong {
-    font-size: 35px;
+    font-size: 30px;
     color: var(--cor2);
 }
 
