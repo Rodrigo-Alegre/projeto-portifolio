@@ -145,7 +145,7 @@ margin-left: 10px;
 .conteudo-secao-1-escrito {
     display: grid;
     grid-column: 1/4;
-    padding-top: 50px;
+    padding-top: 60px;
     padding-left: 10px;
     margin-right: 10px;
 }
@@ -170,7 +170,7 @@ margin-left: 10px;
 
 .conteudo-secao-1-escrito-h2 {
     color: var(--cor6);
-    font-size: 8px;
+    font-size: 9px;
 }
 
 .conteudo-secao-1-escrito-p {
