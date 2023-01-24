@@ -213,7 +213,7 @@ margin-left: 80px;
 }
 
 /*============ALTERANDO RESOLUÇÃO PARA 350PX===========*/
-  /* @media only screen and (max-width: 350px) {
+  @media only screen and (min-width: 350px) {
     .conteudo-secao-1 {
         grid-template-columns: max-content 1fr 1fr;
     }
@@ -223,20 +223,58 @@ margin-left: 80px;
     .conteudo-secao-1-img {
         order: 1;
         justify-self: center;
+        width: 250px;
+        fill: #636161;
     }
-  } */
+  }
 
-  @media only screen and (max-width: 828px) {
+  @media only screen and (max-width: 350px) {
     .conteudo-secao-1 {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr); /* 4 colunas com tamanho igual */
-        grid-template-rows: repeat(6, minmax(50px, 1fr)); /* 6 linhas com tamanho mínimo de 50px e máximo de 1fr */
-        width: 828px; /* largura de 828 pixels */
-        height: 1792px; /* altura de 1792 pixels */
-  } 
-}
+        grid-template-columns: max-content 1fr 1fr;
+    }
+    .conteudo-secao-1-escrito {
+        grid-column: initial;
+    }
+    .conteudo-secao-1-img {
+        order: 1;
+        justify-self: center;
+        width: 250px;
+        fill: #636161;
+    }
+  }
+
+  @media only (min-width: 568px) {
+    .conteudo-secao-1 {
+        grid-template-columns: max-content 1fr 1fr;
+    }
+    .conteudo-secao-1-escrito {
+        grid-column: initial;
+    }
+    .conteudo-secao-1-img {
+        order: 1;
+        justify-self: center;
+        width: 250px;
+        fill: #636161;
+    }
+  }
+
+  @media only (max-width:568px) {
+    .conteudo-secao-1 {
+        grid-template-columns: max-content 1fr 1fr;
+    }
+    .conteudo-secao-1-escrito {
+        grid-column: initial;
+    }
+    .conteudo-secao-1-img {
+        order: 1;
+        justify-self: center;
+        width: 250px;
+        fill: #636161;
+    }
+  }
+
 /*============ALTERANDO RESOLUÇÃO PARA 768PX===========*/
-  /* @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 768px) {
     .conteudo-secao-1 {
         column-gap: 2rem;
     }
@@ -244,7 +282,8 @@ margin-left: 80px;
         width: 400px;
         padding-top: 100px;
     }
-  } */
+  }
+
 /*============ALTERANDO RESOLUÇÃO PARA 1024PX===========*/
   @media only screen and (min-width: 1024px) {
     .conteudo-secao-1 {
