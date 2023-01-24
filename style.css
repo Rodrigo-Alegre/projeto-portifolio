@@ -213,7 +213,7 @@ margin-left: 80px;
 }
 
 /*============ALTERANDO RESOLUÇÃO PARA 350PX===========*/
-  @media only screen and (max-width: 350px) {
+  /* @media only screen and (max-width: 350px) {
     .conteudo-secao-1 {
         grid-template-columns: max-content 1fr 1fr;
     }
@@ -224,7 +224,7 @@ margin-left: 80px;
         order: 1;
         justify-self: center;
     }
-  }
+  } */
 /*============ALTERANDO RESOLUÇÃO PARA 768PX===========*/
   @media only screen and (min-width: 768px) {
     .conteudo-secao-1 {
