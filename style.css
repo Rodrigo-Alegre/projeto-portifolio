@@ -213,7 +213,7 @@ margin-left: 80px;
 }
 
 /*============ALTERANDO RESOLUÇÃO PARA 350PX===========*/
-  @media only screen and (min-width: 350px) {
+  @media only screen and (max-width: 350px) {
     .conteudo-secao-1 {
         grid-template-columns: max-content 1fr 1fr;
     }
