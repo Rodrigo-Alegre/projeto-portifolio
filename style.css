@@ -82,6 +82,7 @@
 }
 
 @media screen and (max-width: 600px) {
+
     .container {
         font-size: 20px;
     }
@@ -90,8 +91,8 @@
         font-size: 15px;
         margin-left: 5px;
         margin-right: 5px;
-
     }
+
 }
 
 /*===============HOME================*/
@@ -228,7 +229,7 @@ margin-left: 80px;
     }
   } */
 
-  @media only screen and (max-width: 350px) {
+  /* @media only screen and (max-width: 350px) {
     .conteudo-secao-1 {
         grid-template-columns: max-content 1fr 1fr;
     }
@@ -241,7 +242,7 @@ margin-left: 80px;
         width: 250px;
         fill: #636161;
     }
-  }
+  } */
 
   /* @media only (min-width: 568px) {
     .conteudo-secao-1 {
@@ -258,10 +259,11 @@ margin-left: 80px;
     }
   } */
 
-  @media only (max-width:568px) {
+  @media (max-width:568px) {
     .conteudo-secao-1 {
         grid-template-columns: max-content 1fr 1fr;
     }
+    
     .conteudo-secao-1-escrito {
         grid-column: initial;
     }
