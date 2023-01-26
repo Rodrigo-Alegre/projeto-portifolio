@@ -102,7 +102,7 @@
 
 .conteudo-secao-1 {
     display: grid;
-    grid-template-columns: repeat(10, 4fr);/* 2 colunas com tamanhos iguais */
+    grid-template-columns: repeat(2, 4fr);/* 2 colunas com tamanhos iguais */
     grid-template-rows: 200px;/* 1 linha com altura de 100px */
     grid-gap: 10px;/* 10px de espaçamento entre as células */
     padding-top: 3.5rem;
@@ -130,6 +130,7 @@
 
 .conteudo-secao-1-img {
 margin-left: 10px;
+margin-right: 10px;
 }
 
 .conteudo-secao-1-img-fundo {
@@ -153,7 +154,7 @@ margin-left: 10px;
 .conteudo-secao-1-escrito-h1 {
     grid-area: 10px;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: var(--cor4);
     margin-bottom: 5px;
 }
@@ -165,13 +166,13 @@ margin-left: 10px;
 }
 
 .conteudo-secao-1-escrito-h1 strong {
-    font-size: 2rem;
+    font-size: 2.7rem;
     color: var(--cor2);
 }
 
 .conteudo-secao-1-escrito-h2 {
     color: var(--cor6);
-    font-size: 10px;
+    font-size: 1rem;
     padding-bottom: 10px;
 }
 
@@ -221,7 +222,6 @@ margin-left: 10px;
 }
 
 /*==================MEDIA QUERIES==================*/
-  
 /*PARA PEQUENOS DISPOSITIVOS*/
 @media screen and (max-width: 350px){
     .conteudo-secao-1-img{
@@ -339,7 +339,7 @@ margin-left: 10px;
 
      /*REDES SOCIAIS*/
      .conteudo-social{
-    padding-top: 120px;
+    padding-top: 110px;
     margin-right: 20px;
      }
     .conteudo-social-link {
@@ -351,7 +351,7 @@ margin-left: 10px;
         order: 1;
         justify-self: center;
         margin-left: 0px;
-        padding-top: 180px;
+        padding-top: 220px;
     }
     .conteudo-secao-1-img-fundo{
         width: 450px;
@@ -360,7 +360,7 @@ margin-left: 10px;
     /*CONTEÚDO ESCRITO*/
     .conteudo-secao-1-escrito {
         grid-column: initial;
-        padding-top: 200px;
+        padding-top: 220px;
     }
     .conteudo-secao-1-escrito-h1 span {
         font-size: 3rem;
@@ -387,5 +387,71 @@ margin-left: 10px;
     }
     .conteudo-secao-1-escrito-botao-veja-mais{
         margin-top: 20px;
+    }
+}
+
+/*PARA MÉDIOS DISPOSITIVOS*/
+@media screen and (min-width: 1646px){
+    .conteudo{
+        grid-template-columns: max-content 1fr 1fr;
+        
+    }
+    .conteudo-secao-1{
+        grid-template-columns: 0.1fr 1fr 1fr;
+    }
+
+     /*REDES SOCIAIS*/
+     .conteudo-social{
+    padding-top: 150px;
+    margin-right: 80px;
+    margin-left: 150px;
+     }
+    .conteudo-social-link {
+        font-size: 3rem;
+    }
+
+    /*IMAGEM*/
+    .conteudo-secao-1-img{
+        order: 1;
+        justify-self: center;
+        margin-right: 50px;
+        margin-left: 0px;
+        padding-top: 270px;
+    }
+    .conteudo-secao-1-img-fundo{
+        width: 500px;
+    }
+
+    /*CONTEÚDO ESCRITO*/
+    .conteudo-secao-1-escrito {
+        grid-column: initial;
+        padding-top: 440px;
+        margin-right: 1px;
+    }
+    .conteudo-secao-1-escrito-h1 span {
+        font-size: 3rem;
+    }
+    .conteudo-secao-1-escrito-h1 {
+        font-size: 2rem;
+    }
+    .conteudo-secao-1-escrito-h1 strong {
+        font-size: 4rem;
+    }
+    .conteudo-secao-1-escrito-h2 {
+        font-size:1.5rem;
+    }
+    .conteudo-secao-1-escrito-p {
+        font-size: 1.5rem;
+    }
+    /*BOTÃO CONTATE ME*/
+    .conteudo-secao-1-escrito-botao-contate-me {
+        font-size: 1.5rem;
+        width: 200px;
+        height: 60px;
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+    .conteudo-secao-1-escrito-botao-veja-mais{
+        margin-top: 50px;
     }
 }
