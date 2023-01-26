@@ -130,7 +130,7 @@
 
 .conteudo-secao-1-img {
 margin-left: 10px;
-margin-right: 10px;
+margin-right: 20px;
 }
 
 .conteudo-secao-1-img-fundo {
@@ -166,13 +166,13 @@ margin-right: 10px;
 }
 
 .conteudo-secao-1-escrito-h1 strong {
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     color: var(--cor2);
 }
 
 .conteudo-secao-1-escrito-h2 {
     color: var(--cor6);
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding-bottom: 10px;
 }
 
@@ -256,9 +256,6 @@ margin-right: 10px;
         padding-top: 0px;
     }
     /*REDES SOCIAIS*/
-    .conteudo-social{
-    
-    }
     .conteudo-social-link {
         font-size: 2rem;
         row-gap: 1rem;
