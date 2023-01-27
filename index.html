@@ -7,28 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- UNICONS -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- STILO DO CSS3 -->
     <link rel="stylesheet" href="style.css">
     <title>Portifólio R|S</title>
 </head>
 
-<body>
-    <!-- CABEÇALHO -->
+<body id="dark-mode">
+<!-- CABEÇALHO -->
     <header class="container">
-        <!-- TITULO-->
+        
+<!-- TITULO-->
         <h1 class="cabecalho-h1"> Portfolio <span>R|S</span> </h1>
-        <!-- LINKS NAVEGAÇÃO -->
-        <nav class="menu-cabecalho">
+
+<!-- LINKS NAVEGAÇÃO -->
+        <nav class="menu-cabecalho" id="navegacao">
             <a class="menu-cabecalho-link" href="#">Home</a>
             <a class="menu-cabecalho-link" href="#">Sobre</a>
             <a class="menu-cabecalho-link" href="#">Projetos</a>
             <a class="menu-cabecalho-link" href="#">Fale comigo</a>
-            <a class="menu-cabecalho-link" href="#"><i class="uil uil-moon"></i></a>
+            <a id="login_form" class="menu-cabecalho-link" href="#"><i id="mode_icon" class="fa-solid fa-moon"></i></a>
         </nav>
     </header>
 
 
-                <!-- =====================HOME==================-->
+<!-- =====================HOME==================-->
 <main class="conteudo">
     <section class="conteudo-secao-1">
 
@@ -71,6 +74,7 @@
                     error nostrum.
             </p>
 
+<!-- =====================BOTÕES==================-->
             <button class="conteudo-secao-1-escrito-botao-contate-me">
                  Contate Me <i class="uil uil-message contato"></i>
             </button>
@@ -94,6 +98,7 @@
     <footer>
 
     </footer>
+    <script src="index.js"></script>
 </body>
 
 </html>
