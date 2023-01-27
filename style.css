@@ -25,19 +25,14 @@
     font-family: var(--fonte-padrao);
 }
 
-/* Dark Mode */
-.dark#dark-mode {
-    background-color: var(--cor6); 
-    animation: light-to-dark-background 0.3s ease-in-out;
-}
-
 /*================CABEÇALHO====================*/
 .container {
     padding: 30px 200px 30px 200px;
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
     box-shadow: 0px 2px 10px 0px #dadada;
-    animation: light-to-dark-background 0.3s ease-in-out;
+    animation: dark-to-light-background 0.3s ease-in-out;
+  
 
     /*flexbox*/
     display: flex;
@@ -53,6 +48,10 @@
     top: 0;
     left: 0;
     width: 100%;
+}
+
+#dark-mode{
+    animation: dark-to-light-background 0.3s ease-in-out;
 }
 
 .container {
@@ -465,14 +464,16 @@ margin-right: 20px;
 }
 
 /* Dark Mode */
-.dark #dark-mode {
-    animation: dark-to-light-background 0.3s ease-in-out;
+.dark#dark-mode {
+    background-color: var(--cor6); 
+    animation: light-to-dark-background 0.3s ease-in-out;
 }
 
 .dark .container{
     background-color: #636161;
     color: var(--cor0);
     box-shadow: 0px 2px 10px 0px #777575;
+    animation: light-to-dark-background 0.3s ease-in-out;
 }
 .dark .cabecalho-h1 span{
     color: var(--cor5);
@@ -517,6 +518,9 @@ color: var(--cor5);
 }
 .dark .conteudo-secao-1-escrito-botao-veja-mais:hover {
     color: var(--cor0);
+}
+.dark .conteudo-secao-1-img-fundo {
+    fill: var(--cor5);
 }
 
 @keyframes dark-to-light-background {
